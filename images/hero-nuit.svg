@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" role="img" aria-label="Illustration d'un ciel nocturne paisible avec un croissant de lune">
+  <!-- Illustration "fait main" : ciel de nuit apaisant, croissant de lune et étoiles.
+       Cohérente avec la palette du site (bleu nuit, sable, terracotta). -->
+  <defs>
+    <clipPath id="rond">
+      <circle cx="220" cy="220" r="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fond circulaire bleu nuit -->
+  <circle cx="220" cy="220" r="200" fill="#4f6a59"/>
+
+  <g clip-path="url(#rond)">
+    <!-- Halo doux derrière la lune -->
+    <circle cx="250" cy="170" r="120" fill="#5f876c" opacity="0.5"/>
+
+    <!-- Croissant de lune (sable) -->
+    <path d="M300 170a85 85 0 1 1-95-84 0.7 0.7 0 0 1 0.9 0.9A70 70 0 0 0 299 165a0.7 0.7 0 0 1 1 5Z" fill="#efe7d2"/>
+    <!-- Quelques cratères discrets -->
+    <circle cx="225" cy="120" r="7" fill="#e0d4b5" opacity="0.7"/>
+    <circle cx="200" cy="155" r="5" fill="#e0d4b5" opacity="0.6"/>
+    <circle cx="235" cy="160" r="4" fill="#e0d4b5" opacity="0.6"/>
+
+    <!-- Étoiles -->
+    <g fill="#efe7d2">
+      <circle cx="90" cy="100" r="2.5"/>
+      <circle cx="140" cy="70" r="1.8"/>
+      <circle cx="110" cy="180" r="2"/>
+      <circle cx="70" cy="240" r="2.4"/>
+      <circle cx="160" cy="300" r="1.8"/>
+      <circle cx="320" cy="300" r="2.2"/>
+      <circle cx="360" cy="240" r="1.8"/>
+      <circle cx="300" cy="360" r="2"/>
+    </g>
+    <!-- Étoile filante accent terracotta -->
+    <g stroke="#50745d" stroke-width="3" stroke-linecap="round">
+      <line x1="95" y1="320" x2="135" y2="300"/>
+    </g>
+    <circle cx="138" cy="299" r="3" fill="#50745d"/>
+
+    <!-- Ligne d'horizon douce (collines) en bas -->
+    <path d="M-20 380 Q110 330 230 375 T460 365 V460 H-20 Z" fill="#3a4f43"/>
+    <path d="M-20 410 Q140 370 290 405 T470 400 V460 H-20 Z" fill="#2c3a31"/>
+  </g>
+
+  <!-- Anneau fin terracotta -->
+  <circle cx="220" cy="220" r="200" fill="none" stroke="#50745d" stroke-width="3" opacity="0.85"/>
+</svg>

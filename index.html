@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============ SEO PRINCIPAL ============ -->
+  <title>Dr Quéval — Médecin du sommeil à Calais | Apnée, ronflement, fatigue</title>
+  <meta name="description" content="Dr Charles-Hubert Quéval, médecin du sommeil à Calais. Dépistage apnée, ronflement, fatigue chronique, troubles du sommeil de l'enfant et de l'adulte." />
+  <meta name="author" content="Dr Charles-Hubert Quéval" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sommeil-calais.fr/" />
+  <meta name="theme-color" content="#4f6a59" />
+
+  <!-- ============ OPEN GRAPH (Facebook, LinkedIn…) ============ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Dr Quéval — Médecin du sommeil à Calais" />
+  <meta property="og:title" content="Dr Quéval — Médecin du sommeil à Calais" />
+  <meta property="og:description" content="Dépistage de l'apnée du sommeil, ronflement, fatigue chronique. Consultations adultes et enfants à Calais (Pas-de-Calais)." />
+  <meta property="og:url" content="https://sommeil-calais.fr/" />
+  <meta property="og:image" content="https://sommeil-calais.fr/images/og-image.png" />
+  <meta property="og:image:alt" content="Cabinet de médecine du sommeil du Dr Quéval à Calais" />
+
+  <!-- ============ TWITTER CARD ============ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr Quéval — Médecin du sommeil à Calais" />
+  <meta name="twitter:description" content="Dépistage de l'apnée du sommeil, ronflement, fatigue chronique. Consultations adultes et enfants à Calais." />
+  <meta name="twitter:image" content="https://sommeil-calais.fr/images/og-image.png" />
+
+  <!-- ============ FAVICON ============ -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- ============ POLICES (preconnect + preload pour la performance) ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- On précharge la feuille de styles des polices puis on l'applique (chargement non bloquant) -->
+  <link
+    rel="preload"
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&display=swap" />
+  </noscript>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ============ DONNÉES STRUCTURÉES Schema.org (Physician) ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "@id": "https://sommeil-calais.fr/#physician",
+    "name": "Dr Charles-Hubert Quéval",
+    "description": "Médecin spécialisé en médecine du sommeil à Calais : dépistage de l'apnée du sommeil, ronflement, fatigue chronique, troubles du sommeil de l'enfant et de l'adulte.",
+    "url": "https://sommeil-calais.fr/",
+    "image": "https://sommeil-calais.fr/images/og-image.png",
+    "medicalSpecialty": "Sleep Medicine",
+    "telephone": "+33327996101",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Carte Vitale, Carte bancaire, Espèces, Chèque",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "757 Avenue Pierre de Coubertin",
+      "addressLocality": "Calais",
+      "postalCode": "62100",
+      "addressRegion": "Pas-de-Calais",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Calais"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:30",
+        "closes": "19:00"
+      }
+    ],
+    "availableService": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "Consultation de médecine du sommeil – Adulte",
+        "description": "Exploration de la fatigue, du ronflement, de la somnolence diurne et dépistage de l'apnée du sommeil chez l'adulte."
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Consultation de médecine du sommeil – Enfant",
+        "description": "Bilan des troubles du sommeil de l'enfant : ronflement, sommeil agité, troubles de l'attention, énurésie."
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Polygraphie ventilatoire",
+        "description": "Enregistrement du sommeil à domicile pour le dépistage de l'apnée du sommeil."
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Polysomnographie",
+        "description": "Enregistrement complet du sommeil incluant l'activité cérébrale."
+      }
+    ],
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval"
+      }
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Lien d'évitement pour l'accessibilité clavier -->
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <!-- ============================ EN-TÊTE / NAVIGATION ============================ -->
+  <header class="site-header" id="haut">
+    <div class="container header-inner">
+      <a href="#haut" class="brand" aria-label="Accueil — Dr Quéval, médecin du sommeil">
+        <svg class="brand-icon" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <path d="M22 17.5A8.5 8.5 0 0 1 12.2 9a0.6 0.6 0 0 0-0.86-0.62A9.5 9.5 0 1 0 23.6 20.6a0.6 0.6 0 0 0-0.62-0.86A8.6 8.6 0 0 1 22 17.5Z" fill="#efe7d2"/>
+          <circle cx="23" cy="9" r="1.4" fill="#50745d"/>
+          <circle cx="19" cy="13" r="0.9" fill="#efe7d2"/>
+        </svg>
+        <span class="brand-text">
+          <strong>Dr Quéval</strong>
+          <span class="brand-sub">Médecin du sommeil · Calais</span>
+        </span>
+      </a>
+
+      <!-- Bouton menu mobile -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Ouvrir le menu de navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#adultes">Adultes</a></li>
+          <li><a href="#enfants">Enfants</a></li>
+          <li><a href="#deroulement">Consultation</a></li>
+          <li><a href="notices.html">Fiches patients</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval" target="_blank" rel="noopener" aria-label="Prendre rendez-vous sur Doctolib (nouvel onglet)">Prendre rendez-vous</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ============================ 1. HERO ============================ -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="hero-eyebrow">Médecine du sommeil · Calais, Pas-de-Calais</p>
+          <h1><span class="hero-name">Dr Charles-Hubert Quéval</span><span class="hero-h1-sub">Médecin du sommeil</span></h1>
+          <p class="hero-lead">
+            Bien dormir, c'est protéger sa santé, son énergie et sa concentration.
+            J'accompagne enfants et adultes pour identifier l'origine d'un sommeil
+            de mauvaise qualité et proposer une prise en charge adaptée.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval" target="_blank" rel="noopener" aria-label="Prendre rendez-vous sur Doctolib (nouvel onglet)">
+              Prendre rendez-vous
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#a-propos">En savoir plus</a>
+          </div>
+          <p class="hero-place">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Cabinet médical à Calais (62100)
+          </p>
+        </div>
+        <div class="hero-illustration reveal" aria-hidden="true">
+          <img src="images/hero-nuit.svg" alt="" width="440" height="440" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 2. À PROPOS ============================ -->
+    <section class="section section-about" id="a-propos">
+      <div class="container narrow reveal">
+        <p class="eyebrow">À propos</p>
+        <h2>Le sommeil, un pilier de la santé</h2>
+        <p class="lead">
+          Le sommeil joue un rôle essentiel sur la santé, l'énergie au quotidien,
+          la concentration et le comportement. Quand il est de mauvaise qualité, le
+          corps et l'esprit le ressentent — parfois sans qu'on fasse le lien.
+          Je reçois en consultation enfants et adultes pour identifier l'origine du
+          problème et proposer une prise en charge adaptée.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ 3. CONSULTATION ADULTE ============================ -->
+    <section class="section section-alt" id="adultes">
+      <div class="container">
+        <div class="split">
+          <div class="split-icon reveal" aria-hidden="true">
+            <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="#4f6a59" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          </div>
+          <div class="split-body reveal">
+            <p class="eyebrow">Consultation adulte</p>
+            <h2>Pour les adultes</h2>
+            <p>
+              Vous vous sentez constamment fatigué malgré des nuits qui semblent
+              suffisantes ? Vous luttez contre la somnolence dans la journée — au
+              travail, en réunion, voire au volant ? Vous ronflez et votre conjoint(e)
+              remarque des pauses respiratoires ou des reprises bruyantes de la
+              respiration pendant votre sommeil ?
+            </p>
+            <p>
+              D'autres signes peuvent vous alerter&nbsp;: des réveils nocturnes répétés,
+              une sensation d'étouffement la nuit, des maux de tête au réveil, une bouche
+              sèche le matin, un besoin fréquent d'uriner la nuit, des troubles de la
+              concentration ou de la mémoire, une irritabilité ou une baisse de moral,
+              une diminution de la libido. Une insomnie qui s'installe ou un sommeil non
+              réparateur méritent eux aussi d'être explorés.
+            </p>
+            <p>
+              La consultation permet de faire le point sur l'ensemble de ces symptômes,
+              d'en rechercher la cause et de proposer un traitement personnalisé.
+            </p>
+            <div class="callout">
+              <h3>Surpoids, IMC&nbsp;&gt;&nbsp;35 et traitement par Wegovy</h3>
+              <p>
+                Vous avez un IMC supérieur à 35 et envisagez un traitement par Wegovy ?
+                Je propose un dépistage de l'apnée du sommeil par enregistrement nocturne.
+                Le diagnostic d'apnée associé à votre IMC permet en effet à votre médecin
+                traitant ou endocrinologue d'obtenir le remboursement du Wegovy par
+                l'Assurance Maladie. Au-delà de cet aspect administratif, dépister et
+                traiter une apnée chez les patients en surpoids améliore significativement
+                l'énergie, la qualité de vie et l'efficacité de la perte de poids.
+              </p>
+            </div>
+            <p class="tags-label">Motifs fréquents de consultation&nbsp;:</p>
+            <ul class="tags" aria-label="Motifs de consultation adulte">
+              <li>Asthénie persistante</li>
+              <li>Ronflement</li>
+              <li>Somnolence diurne</li>
+              <li>Dépistage d'apnée du sommeil</li>
+              <li>Suivi PPC</li>
+              <li>Insomnie chronique</li>
+            </ul>
+
+            <!-- Auto-questionnaires ADULTE (score calculé en JS) -->
+            <div class="quiz-inline">
+              <h3>Auto-évaluation — faites le point en quelques minutes</h3>
+              <p>
+                L'échelle d'Epworth évalue votre somnolence dans la journée, l'échelle de
+                Pichot mesure votre fatigue. Le score est calculé automatiquement&nbsp;; s'il
+                est positif, une consultation est conseillée. Résultat indicatif, sans valeur
+                de diagnostic.
+              </p>
+              <div class="quiz-list">
+                <details class="quiz-block">
+                  <summary>
+                    <span class="quiz-title">Somnolence — échelle d'Epworth</span>
+                    <span class="quiz-meta">8 questions · ~2 min</span>
+                  </summary>
+                  <div class="quiz" data-quiz="epworth"></div>
+                </details>
+                <details class="quiz-block">
+                  <summary>
+                    <span class="quiz-title">Fatigue — échelle de Pichot</span>
+                    <span class="quiz-meta">8 questions · ~2 min</span>
+                  </summary>
+                  <div class="quiz" data-quiz="pichot"></div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 4. CONSULTATION PÉDIATRIQUE ============================ -->
+    <section class="section" id="enfants">
+      <div class="container">
+        <div class="split split-reverse">
+          <div class="split-icon reveal" aria-hidden="true">
+            <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="#4f6a59" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.2"/><path d="M6 21a6 6 0 0 1 12 0"/><path d="M9.5 12.5c.8.6 1.6.9 2.5.9s1.7-.3 2.5-.9"/></svg>
+          </div>
+          <div class="split-body reveal">
+            <p class="eyebrow">Consultation pédiatrique</p>
+            <h2>Pour les enfants</h2>
+            <p>
+              Au même titre qu'un adulte, votre enfant peut présenter des difficultés
+              respiratoires durant son sommeil, communément appelées apnées du sommeil.
+            </p>
+            <p>
+              Des ronflements fréquents, un sommeil agité, une fatigue répétée au réveil,
+              des troubles de la concentration ou une hyperactivité sont autant de signes
+              évocateurs d'apnées du sommeil et doivent vous alerter. Une consultation
+              permet de faire le point, d'examiner votre enfant et, si besoin, d'organiser
+              un enregistrement du sommeil pour poser un diagnostic précis.
+            </p>
+            <p class="tags-label">Motifs fréquents de consultation&nbsp;:</p>
+            <ul class="tags" aria-label="Motifs de consultation pédiatrique">
+              <li>Ronflement</li>
+              <li>Sommeil agité</li>
+              <li>Fatigue au réveil</li>
+              <li>Difficultés d'attention</li>
+              <li>Hyperactivité</li>
+              <li>Énurésie</li>
+            </ul>
+
+            <!-- Auto-questionnaire ENFANT (score calculé en JS) -->
+            <div class="quiz-inline">
+              <h3>Le questionnaire de Chervin</h3>
+              <p>
+                Outil simple de repérage à remplir par un parent&nbsp;: un score supérieur à 8
+                peut aider à identifier un enfant à risque d'apnées du sommeil. Le score est
+                calculé automatiquement. Résultat indicatif, sans valeur de diagnostic.
+              </p>
+              <div class="quiz-list">
+                <details class="quiz-block">
+                  <summary>
+                    <span class="quiz-title">Sommeil et respiration — questionnaire de Chervin</span>
+                    <span class="quiz-meta">22 questions · ~5 min</span>
+                  </summary>
+                  <div class="quiz" data-quiz="chervin"></div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 5. DÉROULEMENT DE LA CONSULTATION ============================ -->
+    <section class="section section-alt" id="deroulement">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Étape par étape</p>
+          <h2>Comment se déroule une consultation</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">1</span>
+            <div>
+              <h3>Entretien clinique approfondi</h3>
+              <p>Antécédents, symptômes, habitudes et mode de vie : on prend le temps de comprendre votre situation.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">2</span>
+            <div>
+              <h3>Examen clinique</h3>
+              <p>Un examen ciblé pour rechercher les causes physiques d'un trouble du sommeil.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">3</span>
+            <div>
+              <h3>Enregistrement du sommeil si nécessaire</h3>
+              <p>Prescription d'une polygraphie ventilatoire ou d'une polysomnographie selon les besoins.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">4</span>
+            <div>
+              <h3>Interprétation et plan personnalisé</h3>
+              <p>Analyse des résultats et proposition d'une prise en charge adaptée à votre situation.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">5</span>
+            <div>
+              <h3>Suivi régulier</h3>
+              <p>Un accompagnement dans la durée pour ajuster le traitement et vérifier son efficacité.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================ 6. EXAMENS PROPOSÉS ============================ -->
+    <section class="section" id="examens">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Examens proposés</p>
+          <h2>Les enregistrements du sommeil</h2>
+        </div>
+        <div class="cards">
+          <a class="card card-link reveal" href="notices/Patient_PG_information.pdf" target="_blank" rel="noopener" aria-label="Polygraphie ventilatoire : lire le déroulement (PDF, nouvel onglet)">
+            <svg class="card-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2 5 4-12 2 7h6"/></svg>
+            <h3>Polygraphie ventilatoire</h3>
+            <p>Enregistrement réalisé à domicile, simple et sans douleur, pour dépister les apnées du sommeil dans votre environnement habituel.</p>
+            <span class="card-cta">Voir le déroulement
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+          <a class="card card-link reveal" href="notices/Patient_PSG_information.pdf" target="_blank" rel="noopener" aria-label="Polysomnographie : lire le déroulement (PDF, nouvel onglet)">
+            <svg class="card-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12h3l1.5-4 3 8 2-10 2 12 2-7 1.5 1H22"/></svg>
+            <h3>Polysomnographie</h3>
+            <p>Enregistrement plus complet, incluant l'activité cérébrale, recommandé dans certaines situations pour un diagnostic précis.</p>
+            <span class="card-cta">Voir le déroulement
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+        </div>
+        <p class="examens-note reveal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Ces examens sont <strong>intégralement pris en charge par la Sécurité sociale, sans aucun dépassement d'honoraires</strong>.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ 7. FAQ (accordéon accessible) ============================ -->
+    <section class="section section-alt" id="faq">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2>Vous vous posez des questions ?</h2>
+        </div>
+
+        <div class="faq reveal">
+          <details class="faq-item">
+            <summary>Quand consulter un médecin du sommeil&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Une consultation est utile si vous ressentez une fatigue persistante malgré des nuits suffisantes, si vous ronflez fortement ou faites des pauses respiratoires, ou si vous luttez contre la somnolence en journée. Chez l'enfant, un ronflement, un sommeil agité ou des difficultés de concentration justifient aussi un avis. En résumé&nbsp;: dès qu'un trouble du sommeil retentit sur votre quotidien.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Comment se passe un enregistrement du sommeil&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>La polygraphie ventilatoire se réalise le plus souvent à domicile&nbsp;: quelques capteurs mesurent la respiration, l'oxygénation et les ronflements pendant la nuit. C'est indolore et vous dormez dans votre lit. La polysomnographie, plus complète, ajoute l'enregistrement de l'activité cérébrale. Les capteurs sont retirés le matin et les données sont ensuite analysées.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>L'apnée du sommeil est-elle remboursée&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Oui. La consultation et les enregistrements diagnostiques sont pris en charge par l'Assurance Maladie selon les conditions habituelles, complétés par votre mutuelle. Si une apnée est confirmée et qu'un traitement par pression positive continue (PPC) est indiqué, l'appareil et son suivi sont également remboursés tant que le traitement est utilisé régulièrement.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Combien de temps pour avoir un rendez-vous&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Les délais varient selon le planning. Le plus simple est de consulter les créneaux disponibles directement sur Doctolib, qui affiche les prochaines disponibilités en temps réel. En cas de symptômes inquiétants, signalez-le à votre médecin traitant qui pourra orienter la prise en charge.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Faut-il une lettre de mon médecin traitant&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Une lettre n'est pas obligatoire pour prendre rendez-vous, mais elle est vivement conseillée. Dans le cadre du parcours de soins coordonnés, être adressé par votre médecin traitant garantit un meilleur remboursement et me transmet des informations utiles sur vos antécédents. Pensez aussi à apporter vos examens et ordonnances récents.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Qu'est-ce qu'une PPC (pression positive continue)&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>La PPC est le traitement de référence de l'apnée du sommeil modérée à sévère. Un petit appareil, relié à un masque nasal, envoie un léger flux d'air qui maintient les voies respiratoires ouvertes pendant la nuit. Elle supprime les apnées, réduit le ronflement et restaure un sommeil réparateur. La plupart des patients constatent une nette amélioration de leur énergie après quelques semaines.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Mon enfant ronfle, est-ce grave&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Un ronflement occasionnel lors d'un rhume est banal. En revanche, un ronflement régulier, surtout s'il s'accompagne de pauses respiratoires, d'un sommeil agité, d'une fatigue ou de difficultés d'attention, mérite un avis médical. Chez l'enfant, ces signes sont souvent liés à de grosses amygdales ou végétations, qui se traitent bien. Un bilan permet de poser le diagnostic et d'éviter un retentissement sur la croissance et les apprentissages.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Quel est le lien entre apnée du sommeil et Wegovy&nbsp;?</summary>
+            <div class="faq-answer">
+              <p>Le Wegovy peut être remboursé pour les patients ayant un IMC élevé associé à une complication, comme l'apnée du sommeil. Dépister une apnée par un enregistrement nocturne permet donc, chez les personnes en surpoids, de documenter cette complication et d'ouvrir droit au remboursement. Au-delà de l'aspect administratif, traiter l'apnée améliore l'énergie et favorise la réussite de la perte de poids.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 8. TARIFS ET REMBOURSEMENT ============================ -->
+    <section class="section" id="tarifs">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">Prise en charge</p>
+          <h2>Remboursement</h2>
+        </div>
+        <ul class="info-list reveal">
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span>Médecin conventionné <strong>secteur 1</strong> — tarifs sans dépassement d'honoraires</span>
+          </li>
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span>Remboursement Sécurité sociale&nbsp;+ mutuelle selon votre contrat</span>
+          </li>
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span>Examens du sommeil <strong>intégralement remboursés par la Sécurité sociale, sans dépassement d'honoraires</strong></span>
+          </li>
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+            <span>Carte Vitale acceptée</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ 9. INFOS PRATIQUES / CONTACT ============================ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Infos pratiques</p>
+          <h2>Venir au cabinet</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <ul class="info-list">
+              <li>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><strong>Adresse</strong><br />757 Avenue Pierre de Coubertin, 62100 Calais</span>
+              </li>
+              <li>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+                <span><strong>Téléphone</strong><br /><a href="tel:+33327996101">03 27 99 61 01</a></span>
+              </li>
+              <li>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                <span><strong>Horaires</strong><br />Du lundi au vendredi, de 8h30 à 19h</span>
+              </li>
+              <li>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#50745d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17H3v-6l2-5h11l4 5v6h-2"/><circle cx="7.5" cy="17.5" r="2"/><circle cx="16.5" cy="17.5" r="2"/></svg>
+                <span><strong>Accès</strong><br />[À COMPLÉTER transports en commun / parking]</span>
+              </li>
+            </ul>
+            <a class="btn btn-primary btn-lg" href="https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval" target="_blank" rel="noopener" aria-label="Prendre rendez-vous sur Doctolib (nouvel onglet)">
+              Prendre rendez-vous sur Doctolib
+            </a>
+          </div>
+
+          <div class="contact-map reveal">
+            <!-- Carte Google Maps en iframe simple (sans cookies de tracking grâce à output=embed) -->
+            <iframe
+              title="Localisation du cabinet du Dr Quéval à Calais"
+              src="https://www.google.com/maps?q=757+Avenue+Pierre+de+Coubertin+62100+Calais&output=embed"
+              width="100%"
+              height="360"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ 10. PIED DE PAGE ============================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <p class="footer-name">Dr Charles-Hubert Quéval</p>
+        <p>Médecin du sommeil<br />Calais, Pas-de-Calais</p>
+      </div>
+
+      <!-- Mentions légales obligatoires — Article R.4127-79 du Code de la santé publique -->
+      <div class="footer-col footer-legal">
+        <p>
+          Dr Charles-Hubert Quéval — Médecin du sommeil<br />
+          N° RPPS&nbsp;: 10100725398<br />
+          757 Avenue Pierre de Coubertin, 62100 Calais<br />
+          Inscrit au Conseil départemental de l'Ordre des médecins du Pas-de-Calais.
+        </p>
+      </div>
+
+      <div class="footer-col footer-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval" target="_blank" rel="noopener">Doctolib</a>
+        <a href="#haut">Haut de page</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Dr Charles-Hubert Quéval. Tous droits réservés.</p>
+      <p class="footer-disclaimer">Les informations présentées sur ce site sont d'ordre général et ne remplacent pas une consultation médicale.</p>
+    </div>
+  </footer>
+
+  <!-- Bouton flottant de prise de contact (visible en permanence) -->
+  <a
+    class="floating-cta"
+    href="https://www.doctolib.fr/medecin-generaliste/calais/charles-hubert-queval"
+    target="_blank"
+    rel="noopener"
+    aria-label="Je souhaite une consultation — prendre rendez-vous sur Doctolib (nouvel onglet)"
+  >
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 16l2 2 4-4"/></svg>
+    <span>Je souhaite une consultation</span>
+  </a>
+
+  <script src="script.js" defer></script>
+  <script src="questionnaires.js" defer></script>
+</body>
+</html>
