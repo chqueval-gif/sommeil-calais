@@ -8,7 +8,7 @@
   </defs>
 
   <!-- Fond circulaire bleu nuit -->
-  <circle cx="220" cy="220" r="200" fill="#3f4636"/>
+  <circle cx="220" cy="220" r="200" fill="#4f6147"/>
 
   <g clip-path="url(#rond)">
     <!-- Halo doux derrière la lune -->

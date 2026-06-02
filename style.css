@@ -1,8 +1,8 @@
 /* =====================================================================
    Dr Quéval — Médecin du sommeil à Calais
    Feuille de styles — approche mobile-first, accessible (WCAG AA)
-   Palette : crème #ece6d5 · sauge profond #3f4636 · sauge clair #bcc1b2
-             · accent CTA sauge #565d49 (monochrome)
+   Palette : crème #ece6d5 · sauge vert #4f6147 (bandeaux) · sauge clair #bcc1b2
+             · accent CTA sauge #565d49 · eyebrows/liens #3f4636 (monochrome)
    ===================================================================== */
 
 /* ---------- 1. Variables de design ---------- */
@@ -10,7 +10,7 @@
   /* Palette reprise du site Hypnote (hypnote.fr) : crème + olive + bronze + brique.
      On conserve les anciens noms de variables (--bleu-nuit, --sable…) pour ne pas
      casser le reste de la feuille de styles ; seules les valeurs changent. */
-  --bleu-nuit: #3f4636;        /* sauge profond — titres, en-tête, pied */
+  --bleu-nuit: #4f6147;        /* sauge vert moyen — bandeau, titres, en-tête, pied */
   --bleu-nuit-clair: #bcc1b2;  /* sauge clair (#BCC1B2) — teinte signature douce */
   --sable: #e6dfca;            /* sable Hypnote */
   --sable-clair: #efe7d2;      /* crème claire (sections alternées) */
@@ -661,7 +661,7 @@ h3 {
   margin-bottom: 0.3rem;
 }
 .footer-legal p {
-  color: #aab2c2;
+  color: #dbe0d2;
   font-size: 0.85rem;
 }
 .footer-links {
@@ -688,7 +688,7 @@ h3 {
 }
 .footer-bottom p {
   font-size: 0.82rem;
-  color: #95a0b3;
+  color: #d3d9c8;
 }
 .footer-disclaimer {
   max-width: 460px;
