@@ -1,8 +1,8 @@
 /* =====================================================================
    Dr Quéval — Médecin du sommeil à Calais
    Feuille de styles — approche mobile-first, accessible (WCAG AA)
-   Palette : crème #ece6d5 · vert sauge #4f6a59 / #5f876c
-             · bronze #9d7f54 · accent CTA vert sauge #50745d
+   Palette : crème #ece6d5 · eucalyptus profond #3e4d45 · eucalyptus clair #95a595
+             · accent CTA eucalyptus #50645a (monochrome)
    ===================================================================== */
 
 /* ---------- 1. Variables de design ---------- */
@@ -10,14 +10,14 @@
   /* Palette reprise du site Hypnote (hypnote.fr) : crème + olive + bronze + brique.
      On conserve les anciens noms de variables (--bleu-nuit, --sable…) pour ne pas
      casser le reste de la feuille de styles ; seules les valeurs changent. */
-  --bleu-nuit: #4f6a59;        /* vert sauge profond — couleur signature (titres, en-tête, pied) */
-  --bleu-nuit-clair: #5f876c;  /* vert sauge clair */
+  --bleu-nuit: #3e4d45;        /* eucalyptus profond — titres, en-tête, pied */
+  --bleu-nuit-clair: #95a595;  /* eucalyptus clair (#95A595) — teinte signature douce */
   --sable: #e6dfca;            /* sable Hypnote */
   --sable-clair: #efe7d2;      /* crème claire (sections alternées) */
   --blanc-casse: #f4eede;      /* crème la plus claire (cartes, surfaces hautes) */
   --bg-page: #ece6d5;          /* fond de page chaud */
-  --terracotta: #50745d;       /* vert sauge (CTA) — légèrement assombri pour rester lisible AA */
-  --terracotta-fonce: #3f5d4a; /* vert sauge foncé (survol, liens, eyebrows) */
+  --terracotta: #50645a;       /* eucalyptus moyen (CTA) — assez foncé pour rester lisible AA */
+  --terracotta-fonce: #3e4d45; /* eucalyptus profond (survol, liens, eyebrows) */
   --bronze: #9d7f54;           /* doré Hypnote (accents secondaires) */
   --texte: #2a2823;            /* encre */
   --texte-doux: #5d574a;       /* encre douce */
@@ -211,7 +211,7 @@ h3 {
   color: var(--bleu-nuit);
 }
 .btn-ghost:hover {
-  background: rgba(79, 106, 89, 0.1);
+  background: rgba(62, 77, 69, 0.1);
   transform: translateY(-2px);
 }
 
@@ -711,7 +711,7 @@ h3 {
   text-decoration: none;
   padding: 0.85rem 1.3rem;
   border-radius: 999px;
-  box-shadow: 0 12px 28px -8px rgba(80, 116, 93, 0.5);
+  box-shadow: 0 12px 28px -8px rgba(80, 100, 90, 0.5);
   transition: transform var(--transition), background-color var(--transition);
 }
 .floating-cta:hover {
@@ -846,7 +846,7 @@ h3 {
 /* Surlignage de l'option sélectionnée (navigateurs modernes) */
 .quiz-opt:has(input:checked) {
   border-color: var(--terracotta);
-  background: rgba(80, 116, 93, 0.14);
+  background: rgba(80, 100, 90, 0.16);
   font-weight: 500;
 }
 .quiz-actions {
@@ -879,7 +879,7 @@ h3 {
 /* Variantes de résultat (vert = ok, ambre = vigilance, orange = consultation conseillée) */
 .quiz-result--ok {
   border-left-color: var(--terracotta);
-  background: rgba(80, 116, 93, 0.12);
+  background: rgba(80, 100, 90, 0.14);
 }
 .quiz-result--warn {
   border-left-color: #9a7b2e;

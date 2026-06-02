@@ -8,11 +8,11 @@
   </defs>
 
   <!-- Fond circulaire bleu nuit -->
-  <circle cx="220" cy="220" r="200" fill="#4f6a59"/>
+  <circle cx="220" cy="220" r="200" fill="#3e4d45"/>
 
   <g clip-path="url(#rond)">
     <!-- Halo doux derrière la lune -->
-    <circle cx="250" cy="170" r="120" fill="#5f876c" opacity="0.5"/>
+    <circle cx="250" cy="170" r="120" fill="#95a595" opacity="0.5"/>
 
     <!-- Croissant de lune (sable) -->
     <path d="M300 170a85 85 0 1 1-95-84 0.7 0.7 0 0 1 0.9 0.9A70 70 0 0 0 299 165a0.7 0.7 0 0 1 1 5Z" fill="#efe7d2"/>
@@ -33,10 +33,10 @@
       <circle cx="300" cy="360" r="2"/>
     </g>
     <!-- Étoile filante accent terracotta -->
-    <g stroke="#50745d" stroke-width="3" stroke-linecap="round">
+    <g stroke="#50645a" stroke-width="3" stroke-linecap="round">
       <line x1="95" y1="320" x2="135" y2="300"/>
     </g>
-    <circle cx="138" cy="299" r="3" fill="#50745d"/>
+    <circle cx="138" cy="299" r="3" fill="#50645a"/>
 
     <!-- Ligne d'horizon douce (collines) en bas -->
     <path d="M-20 380 Q110 330 230 375 T460 365 V460 H-20 Z" fill="#3a4f43"/>
@@ -44,5 +44,5 @@
   </g>
 
   <!-- Anneau fin terracotta -->
-  <circle cx="220" cy="220" r="200" fill="none" stroke="#50745d" stroke-width="3" opacity="0.85"/>
+  <circle cx="220" cy="220" r="200" fill="none" stroke="#50645a" stroke-width="3" opacity="0.85"/>
 </svg>

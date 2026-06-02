@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <!-- Favicon : croissant de lune sur fond bleu nuit, accent terracotta -->
-  <rect width="32" height="32" rx="7" fill="#4f6a59"/>
+  <rect width="32" height="32" rx="7" fill="#3e4d45"/>
   <path d="M22 18A8.5 8.5 0 0 1 12 9.5a0.6 0.6 0 0 0-0.9-0.6A9.5 9.5 0 1 0 23.6 21a0.6 0.6 0 0 0-0.6-0.9A8.6 8.6 0 0 1 22 18Z" fill="#efe7d2"/>
-  <circle cx="23" cy="9.5" r="1.6" fill="#50745d"/>
+  <circle cx="23" cy="9.5" r="1.6" fill="#50645a"/>
   <circle cx="18.5" cy="13.5" r="0.9" fill="#efe7d2"/>
 </svg>
