@@ -162,6 +162,47 @@ h3 {
   margin-bottom: 0.7rem;
 }
 
+/* Pages éditoriales (pages thématiques, articles) — rythme de lecture aéré */
+.prose .lead {
+  margin-bottom: 1.6rem;
+}
+.prose p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+}
+.prose h2 {
+  margin-top: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+.prose h3 {
+  margin-top: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+.prose ul,
+.prose ol {
+  margin: 0 0 1.4rem 1.2rem;
+}
+.prose li {
+  margin-bottom: 0.45rem;
+  line-height: 1.6;
+}
+.prose .callout,
+.prose .info-list {
+  margin: 2rem 0;
+}
+.prose .page-cta {
+  margin: 2.4rem 0;
+  text-align: center;
+}
+.breadcrumb {
+  font-size: 0.85rem;
+  margin-bottom: 1.4rem;
+  color: var(--texte-doux, #6b6b6b);
+}
+.breadcrumb a {
+  color: inherit;
+}
+
 .eyebrow {
   font-size: 0.8rem;
   font-weight: 600;
