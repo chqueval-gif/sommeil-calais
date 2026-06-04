@@ -1,5 +1,5 @@
 /* =====================================================================
-   Dr Quéval — Médecin du sommeil à Calais
+   Dr Quéval — Médecine du sommeil à Calais
    Script principal : menu mobile, animations au scroll, FAQ exclusive
    JavaScript pur, sans dépendance.
    ===================================================================== */

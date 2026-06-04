@@ -1,5 +1,5 @@
 /* =====================================================================
-   Dr Quéval — Médecin du sommeil à Calais
+   Dr Quéval — Médecine du sommeil à Calais
    Auto-questionnaires interactifs avec calcul de score.
    - Échelle d'Epworth (somnolence, adulte)
    - Échelle de fatigue de Pichot (adulte)

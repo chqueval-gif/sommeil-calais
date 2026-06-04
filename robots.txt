@@ -1,4 +1,4 @@
-# robots.txt — Dr Quéval, médecin du sommeil à Calais
+# robots.txt — Dr Quéval, médecine du sommeil à Calais
 # Autorise l'indexation complète du site par tous les moteurs de recherche.
 
 User-agent: *

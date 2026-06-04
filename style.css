@@ -1,5 +1,5 @@
 /* =====================================================================
-   Dr Quéval — Médecin du sommeil à Calais
+   Dr Quéval — Médecine du sommeil à Calais
    Feuille de styles — approche mobile-first, accessible (WCAG AA)
    Palette : crème #ece6d5 · sauge vert #4f6147 (bandeaux) · sauge clair #bcc1b2
              · accent CTA sauge #565d49 · eyebrows/liens #3f4636 (monochrome)
@@ -147,6 +147,19 @@ h3 {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--bleu-nuit);
+}
+
+/* Section pédagogique « Comprendre l'apnée » — rythme de lecture aéré */
+#apnee .lead {
+  margin-bottom: 1.6rem;
+}
+#apnee p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+}
+#apnee h3 {
+  margin-top: 2.4rem;
+  margin-bottom: 0.7rem;
 }
 
 .eyebrow {
