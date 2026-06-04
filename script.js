@@ -41,6 +41,37 @@
     });
   }
 
+  /* ---------- 1b. Sous-menus déroulants de la nav ---------- */
+  var navSubs = Array.prototype.slice.call(document.querySelectorAll(".nav-sub"));
+  if (navSubs.length) {
+    // Un seul sous-menu ouvert à la fois
+    navSubs.forEach(function (sub) {
+      sub.addEventListener("toggle", function () {
+        if (sub.open) {
+          navSubs.forEach(function (autre) {
+            if (autre !== sub) autre.open = false;
+          });
+        }
+      });
+    });
+    // Ferme les sous-menus au clic en dehors de la navigation
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest(".nav-sub")) {
+        navSubs.forEach(function (sub) {
+          sub.open = false;
+        });
+      }
+    });
+    // Ferme les sous-menus avec la touche Échap
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        navSubs.forEach(function (sub) {
+          sub.open = false;
+        });
+      }
+    });
+  }
+
   /* ---------- 2. Apparition au scroll (IntersectionObserver) ---------- */
   var elements = document.querySelectorAll(".reveal");
 

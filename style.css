@@ -345,6 +345,109 @@ h3 {
   padding: 0.6rem 1.2rem;
 }
 
+/* Sous-menus déroulants de la navigation (élément <details> natif) */
+.nav-sub {
+  position: relative;
+}
+.nav-sub > summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.98rem;
+  color: var(--texte);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color var(--transition);
+}
+.nav-sub > summary::-webkit-details-marker {
+  display: none;
+}
+.nav-sub > summary::after {
+  content: "▾";
+  font-size: 0.7em;
+  transition: transform var(--transition);
+}
+.nav-sub[open] > summary::after {
+  transform: rotate(180deg);
+}
+.nav-sub > summary:hover {
+  color: var(--terracotta);
+}
+.nav-submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 860px) {
+  .nav-submenu {
+    position: absolute;
+    top: calc(100% + 0.6rem);
+    left: 0;
+    min-width: 230px;
+    background: var(--blanc-casse);
+    border: 1px solid var(--bordure);
+    border-radius: var(--rayon-sm);
+    box-shadow: var(--ombre);
+    padding: 0.4rem;
+    z-index: 200;
+  }
+  .nav-submenu li {
+    white-space: nowrap;
+  }
+  .nav-submenu a {
+    display: block;
+    padding: 0.55rem 0.75rem;
+    border-radius: var(--rayon-sm);
+  }
+  .nav-submenu a:hover {
+    background: rgba(63, 70, 54, 0.08);
+  }
+}
+@media (max-width: 859px) {
+  .nav-sub > summary {
+    padding: 0.9rem 0;
+  }
+  .nav-submenu {
+    padding-left: 1rem;
+  }
+  .nav-submenu li:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Plan du site (pied de page) */
+.footer-sitemap {
+  border-top: 1px solid rgba(236, 230, 213, 0.18);
+  padding-top: 1.8rem;
+  margin-top: 1rem;
+}
+.footer-sitemap-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sable);
+  margin-bottom: 1rem;
+}
+.footer-sitemap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.5rem 1.5rem;
+}
+.footer-sitemap a {
+  color: var(--sable);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+.footer-sitemap a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* Bouton hamburger (mobile) */
 .nav-toggle {
   display: none;
@@ -1108,7 +1211,8 @@ h3 {
     transition: max-height var(--transition), opacity var(--transition);
   }
   .nav.is-open {
-    max-height: 480px;
+    max-height: 85vh;
+    overflow-y: auto;
     opacity: 1;
     pointer-events: auto;
   }
