@@ -161,6 +161,12 @@ h3 {
   margin-top: 2.4rem;
   margin-bottom: 0.7rem;
 }
+.apnee-links {
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  line-height: 2;
+}
 
 /* Pages éditoriales (pages thématiques, articles) — rythme de lecture aéré */
 .prose .lead {
