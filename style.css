@@ -497,6 +497,10 @@ h3 {
   white-space: nowrap;
   font-size: clamp(1.5rem, 6.2vw, 3.6rem);
 }
+/* Variante « activité » du grand titre : phrase plus longue, autorisée à passer à la ligne */
+.hero-name--activity {
+  white-space: normal;
+}
 .hero-h1-sub {
   display: block;
   font-size: 0.46em;
